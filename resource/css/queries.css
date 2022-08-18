@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1200px)  { /* aps dung cho screen < with 1000px)*/
+    html {
+        font-size: 16px;
+    }
+    .heading-main {
+        transform: translate(-30%,-50%);
+    }
+    form{
+        margin-left: 10%;
+    }
+    
+}
+@media only screen and (max-width: 1023px)  { /* aps dung cho screen < with 1000px)*/
+    h1 {
+       color: yellow; 
+    }
+    .main-btn {
+        margin-top: 90px;
+    }
+
+    .abount-col img { 
+        height: 100px;
+        width: 100px;
+    }
+    .abount-col  { 
+        width: 18%;
+    }
+   .text-about {
+
+        font-size: 10px;
+        margin-left: 2%;
+    }
+    .section-about h2 {
+        display: inline;
+        padding-right: 190px;
+    }
+    .product-box {
+        
+        width: 100%;
+        margin-right: 10%;
+    }
+
+}
+@media only screen and (max-width: 767px)  { /* aps dung cho screen < with 1000px)*/
+    h1 {
+       color: blue; 
+   
+    }
+    .logo {
+        width: 50px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .main-btn {
+        margin-top:-30px;
+        margin-left: 80px;
+        font-size: 10px;
+    }
+    
+}
+@media only screen and (max-width: 480px)  { /* aps dung cho screen < with 1000px)*/
+    h1 {
+       color: red; 
+    }
+    
+}
